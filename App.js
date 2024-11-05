@@ -18,10 +18,10 @@ export default function App() {
             return;
         }
         
-        // Process registration (for now, just display an alert)
+        
         Alert.alert("Registration Successful", `Welcome, ${name}!`);
         
-        // Clear inputs
+        
         setName('');
         setEmail('');
         setPassword('');
